@@ -51,7 +51,7 @@ label {
     width: 960px;
     position: relative;
     top: 175px;
-    background: rgb(53, 55, 170);
+    background: darkblue;
     margin: 0 auto;
     border-radius: 20px;
     padding: 10px;
@@ -67,6 +67,18 @@ label {
     float: left;
     z-index: 0;
 
+}
+
+.projects:hover {
+
+    filter: brightness(85%);
+
+}
+
+img {
+
+    width: 150px;
+    height: 200px;
 }
 
 .title {
@@ -89,6 +101,7 @@ label {
     float: left;
     border-radius: 5px;
     text-align: center;
+    padding-top: 25px;
 
 }
 
